@@ -7,3 +7,14 @@ Content-Type: application/json
   "password": "y@ppy&H@ppy",
   "password_confirmation": "y@ppy&H@ppy"
 }
+
+###
+
+POST http://localhost:3000/dogs.json
+Content-Type: application/json
+
+{
+  "name": "Spot",
+  "age": 4,
+  "breed": "dalmatian"
+}
